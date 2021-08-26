@@ -68,5 +68,29 @@
 				</details>
 			</presentation>
 		</class>
+		<class id="StorageSystem">
+			<presentation>
+				<details>
+					<items>
+						<item id="tab:FunctionalCI:renew" _delta="define">
+							<rank>101</rank>
+							<items>
+								<item id="fieldset:FunctionalCI:renew">
+									<rank>10</rank>
+									<items>
+										<item id="renew_date">
+											<rank>10</rank>
+										</item>
+										<item id="renew_info">
+											<rank>11</rank>
+										</item>
+									</items>
+								</item>
+							</items>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
 	</classes>
 </itop_design>
