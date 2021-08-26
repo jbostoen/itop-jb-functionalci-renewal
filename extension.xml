@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code><![CDATA[jb-functionalci-renewal]]></extension_code>
+	<company><![CDATA[]]></company>
+	<author><![CDATA[Jeffrey Bostoen]]></author>
+	<label><![CDATA[Datamodel: FunctionalCI - renewal info]]></label>
+	<description><![CDATA[Adds a datetime field to set a renewal date and a text area for a renewal comment. This is added on the FunctionalCI object, but only visible]]></description>
+	<version><![CDATA[2.6.210826]]></version>
+	<release_date><![CDATA[2021-08-26]]></release_date>
+	<version_description><![CDATA[]]></version_description>
+	<itop_version_min><![CDATA[2.6.0]]></itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url><![CDATA[https://jbostoen.github.io/itop-extensions-documentation/]]></more_info_url>
+</extension>
