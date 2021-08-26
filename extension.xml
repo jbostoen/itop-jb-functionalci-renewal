@@ -4,7 +4,7 @@
 	<company><![CDATA[]]></company>
 	<author><![CDATA[Jeffrey Bostoen]]></author>
 	<label><![CDATA[Datamodel: FunctionalCI - renewal info]]></label>
-	<description><![CDATA[Adds a datetime field to set a renewal date and a text area for a renewal comment. This is added on the FunctionalCI object, but only visible]]></description>
+	<description><![CDATA[Adds a datetime field to set a renewal date and a text area for a renewal comment. This is added on the FunctionalCI object, but only visible on certain subclasses.]]></description>
 	<version><![CDATA[2.6.210826]]></version>
 	<release_date><![CDATA[2021-08-26]]></release_date>
 	<version_description><![CDATA[]]></version_description>

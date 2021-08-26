@@ -11,14 +11,14 @@ Need custom development?
 Please get in touch to discuss the terms: **jbostoen.itop@outlook.com**
 
 ## What?
-Adds a datetime field to set a renewal date and a text area for a renewal comment. This is added on the FunctionalCI object, but only visible
+Adds a datetime field to set a renewal date and a text area for a renewal comment. This is added on the FunctionalCI object, but only visible on certain subclasses.
 
 ## Cookbook
 
 XML:
-* something
+* extend existing classes: add a tab with a date field, text area field
 
 PHP:
-* something
+* -
 
 
