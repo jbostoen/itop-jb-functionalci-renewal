@@ -6,7 +6,7 @@
  * Special note: another extension already defines renew_date. So this extension uses renew_date
 -->
 	<classes>
-		<class id="FunctionalCI">
+		<class id="FunctionalCI" _delta="if_exists">
 			<fields>
 				<field id="renew_date" xsi:type="AttributeDate" _delta="define">
 					<sql>renew_date</sql>
@@ -20,7 +20,21 @@
 				</field>
 			</fields>
 		</class>
-		<class id="NetworkDevice">
+		<class id="IPPhone" _delta="if_exists">
+			<fields>
+				<field id="renew_date" xsi:type="AttributeDate" _delta="define">
+					<sql>renew_date</sql>
+					<is_null_allowed>true</is_null_allowed>
+					<default_value/>
+				</field>
+				<field id="renew_info" xsi:type="AttributeHTML" _delta="define">
+					<sql>renew_info</sql>
+					<is_null_allowed>true</is_null_allowed>
+					<default_value/>
+				</field>
+			</fields>
+		</class>
+		<class id="NAS" _delta="if_exists">
 			<presentation>
 				<details>
 					<items>
@@ -44,7 +58,7 @@
 				</details>
 			</presentation>
 		</class>
-		<class id="Server">
+		<class id="NetworkDevice" _delta="if_exists">
 			<presentation>
 				<details>
 					<items>
@@ -68,7 +82,31 @@
 				</details>
 			</presentation>
 		</class>
-		<class id="StorageSystem">
+		<class id="Server" _delta="if_exists">
+			<presentation>
+				<details>
+					<items>
+						<item id="tab:FunctionalCI:renew" _delta="define">
+							<rank>101</rank>
+							<items>
+								<item id="fieldset:FunctionalCI:renew">
+									<rank>10</rank>
+									<items>
+										<item id="renew_date">
+											<rank>10</rank>
+										</item>
+										<item id="renew_info">
+											<rank>11</rank>
+										</item>
+									</items>
+								</item>
+							</items>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="StorageSystem" _delta="if_exists">
 			<presentation>
 				<details>
 					<items>
